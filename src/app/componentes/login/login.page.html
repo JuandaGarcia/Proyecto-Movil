@@ -1,11 +1,11 @@
 <ion-header >
   <ion-toolbar color="primary" text-center>
-    <ion-title>Iniciar Sesion</ion-title>
+    <ion-title>Iniciar Sesión</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  <img src="assets/icon/logo1.png" style="width: 350px; height: 350px;">
+  <img src="assets/icon/logo1.png" style="width: 340px; height: 340px;">
   <ion-item>
     <ion-label position="floating">Correo Electronico </ion-label>
     <ion-input type="text" [(ngModel)]="email" name="email"></ion-input>
@@ -17,5 +17,6 @@
   </ion-item>
   <br>
   <ion-button (click)="OnsubmitLogin()"  expand="block" class="shadow-red">Ingresar</ion-button>
+  <ion-label padding>¿No tienes cuenta? <a>Registrate!</a></ion-label>
 
 </ion-content>
